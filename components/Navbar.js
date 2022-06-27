@@ -14,7 +14,7 @@ export default function SystemNavbar({ dashsidebar, setDashsidebar, session }){
                 <Image src="/images/hamburger.svg" width="30" height="30" alt=""/>
             </a>
             <div>
-                <h4>{session? session.user.username : 'No session'} / {session? session.user.email : 'No role'} </h4>
+                <h4>{session? session.user.email : 'No role'}</h4>
             </div>
         </Navbar>
     )
