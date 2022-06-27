@@ -1,0 +1,36 @@
+.sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #1F4E78;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.sidebarheader {
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    background: #C00000;
+}
+
+.sidebar ul p {
+    margin: 10px auto;
+    color: #fff;
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    color: #1F4E78;
+    background: rgb(207, 240, 255);
+}
+
+.clock{
+    padding: 10px;
+}
