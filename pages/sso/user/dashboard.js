@@ -11,15 +11,12 @@ import { Container, Row, Col } from 'reactstrap';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-//dashboard services
-//import { DashboardService } from "@/services/dashboard";
-
 export async function getServerSideProps(ctx) {
 
     const session = await getSession(ctx);
 
     //check if session exist
-    if (session && session.jwt) {
+    if (session) {
         return {
             props: {
                 what: what
